@@ -15,3 +15,5 @@ Run it with Node 22.18+:
 ```sh
 node main.ts
 ```
+
+Deterministic: repeated runs write byte-identical output (`/output/entry.txt`, sha256 `c2e3cb20a7cd5abbcc3bc63a8516b0f2e6adef9f8f3efa6bbeddbef0b15d2e16`), and the program reads the file back after writing to refuse any mismatch.
